@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "owner": "hammouda",
+    "name": "Aqwa_Cars",
+    "slug": "rental-theases",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/aqwaWhite.png",
+    "userInterfaceStyle": "light",
+    "androidNavigationBar": {
+      "visible": "sticky-immersive"
+    },
+    "splash": {
+      "image": "./assets/aqwaWhite.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app requires access to the camera to take photos."
+      },
+      "bundleIdentifier": "com.aqwa-cars.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/aqwa-cars-logo-appel.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hammouda.aqwa_cars_deploy",
+      "permissions": ["CAMERA", "INTERNET"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "57507b4d-29d2-4eb2-9e22-4ad598882191"
+      }
+    }
+  }
+}
