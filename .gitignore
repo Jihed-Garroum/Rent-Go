@@ -40,6 +40,6 @@ yarn-error.*
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-
+.yarn
 # Additionally, ignore.pnp.* files
 .pnp.*
