@@ -32,14 +32,7 @@ yarn-error.*
 .env*.local
 # typescript
 *.tsbuildinfo
-# Ignore everything under.yarn except for the specified directories
+# Ignore everything under.yarn
 .yarn/*
-!.yarn/cache
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
-.yarn
 # Additionally, ignore.pnp.* files
 .pnp.*
